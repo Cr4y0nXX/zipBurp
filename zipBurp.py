@@ -35,7 +35,7 @@ def burp(item):
         print("\r[test] : " + password, end="", flush=True)
         pass
     except:
-        print("\nSomething Error.", password)
+        print("\nSomething Error: ", password)
         pass
     else:
         print("\n[\033[92mSuccessfully\033[0m] : " + password)
